@@ -1,0 +1,15 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#main-header {
+	background-color: #2ECC71;
+}
+
+#main-banner {
+	width: 100%;
+	height: 100px;
+}
+
+.banner-icon {
+	width: 15%;
+}
