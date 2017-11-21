@@ -1,0 +1,29 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media all and (min-width: 37.5em) {
+	.banner-icon {
+		width: 80px;
+	}
+	
+	.nav-gallery {
+		flex-direction: row;
+	}
+	
+	.gallery-container img {
+		width: 175px;
+	}
+	
+}
+
+@media all and (min-width: 53.75em) {
+	
+}
+
+@media all and (min-width: 58.75em) {
+	
+}
+
+@media all and (min-width: 81.25em) {
+	
+}

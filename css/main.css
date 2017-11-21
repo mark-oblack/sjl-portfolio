@@ -10,14 +10,17 @@ General Styles
 
 html, body {
 	min-height: 100%;
+	text-decoration: none;
 }
 
-h1 {
+h1, h2 {
 	font-family: 'Roboto Slab', serif;
+	color: #2C3E50;
 }
 
-h2, h3, p {
+h3, p {
 	font-family: 'Roboto', sans-serif;
+	color: #2C3E50;
 }
 
 .flex-container {
@@ -29,9 +32,38 @@ h2, h3, p {
 }
 
 
+/*----------------------------------------
+Footer & Contact
+----------------------------------------*/
+
+footer {
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+.fa {
+	color: #2C3E50;
+}
+
+.contact-list {
+	display: flex;
+	justify-content: center;
+}
+
+.contact-list li {
+	padding: 10px 20px;
+}
+
+.fa:hover {
+	color: #8E44AD;
+	transition: ease .3s;
+}
+
 
 /*----------------------------------------
-Home Page Styles
+Home Banner Styles
 ----------------------------------------*/
 
 #main-header {
@@ -46,11 +78,22 @@ Home Page Styles
 .banner-icon {
 	width: 50px;
 	height: 100px;
+	-webkit-animation-duration: 1s;
+	-moz-animation-duration: 1s;
 }
 
-#main-content {
-	width: 100%;
+.banner-icon:nth-child(2n) {
+	-webkit-animation-duration: 1s;
+	-webkit-animation-delay: 1s;
+	-moz-animation-duration: 1s;
+	-moz-animation-delay: 1s;
 }
+
+
+
+/*----------------------------------------
+Home Image
+----------------------------------------*/
 
 .home-image {
 	background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(http://www.thecitizensciencelab.org/wp-content/uploads/2015/11/lab.jpg) center center no-repeat;
@@ -62,7 +105,8 @@ Home Page Styles
 	height: 200px;
 }
 
-.home-image h1, h2 {
+.home-image h1, 
+.home-image h2 {
 	color: #F0F0F0;
 	text-align: center;
 	margin: 0 auto;
@@ -71,36 +115,55 @@ Home Page Styles
 
 .home-image h1 {
 	font-size: 1.5em;
+	-webkit-animation-duration: 2.5s;
+	-webkit-animation-delay: 2s;
+	-moz-animation-duration: 2.5s;
+	-moz-animation-delay: 2s;
 }
 
 .home-image h2 {
 	font-size: 1.15em;
+	-webkit-animation-duration: 2.5s;
+	-webkit-animation-delay: 3s;
+	-moz-animation-duration: 2.5s;
+	-moz-animation-delay: 3s;
+}
+
+
+
+/*----------------------------------------
+Home Nav Gallery
+----------------------------------------*/
+
+.nav-gallery {
+	flex-direction: column;
 }
 
 .gallery-container {
-	display: block;
 	margin: 0 auto;
 	padding: 20px 0;
 	position: relative;
-	width: 70%;
 }
 
 .gallery-container img {
 	display: block;
+	margin: 0 auto;
 	height: 120px;
-	width: 100%;
+	width: 200px;
 }
 
 .gallery-container h2 {
-	color: #2C3E50;
-	font-size: 1.15em;
+	font-size: 1.3em;
 	position: absolute;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 }
 
-
+.grow:hover {
+	font-size: 1.8em;
+	transition: ease .25s;
+}
 
 
 
