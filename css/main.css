@@ -31,6 +31,7 @@ h3, p {
 	justify-content: space-around;
 	flex-direction: row;
 	flex-wrap: wrap;
+	height: 100%;
 	width: 100%;
 }
 
@@ -87,17 +88,22 @@ Home Banner Styles
 	height: 100px;
 }
 
+.banner-flex {
+	align-items: center;
+}
+
 .banner-icon {
+	margin: 0 auto;
 	width: 50px;
 	height: 100px;
-	-webkit-animation-duration: 1s;
-	-moz-animation-duration: 1s;
+	-webkit-animation-duration: 1.5s;
+	-moz-animation-duration: 1.5s;
 }
 
 .banner-icon:nth-child(2n) {
-	-webkit-animation-duration: 1s;
+	-webkit-animation-duration: 1.5s;
 	-webkit-animation-delay: 1s;
-	-moz-animation-duration: 1s;
+	-moz-animation-duration: 1.5s;
 	-moz-animation-delay: 1s;
 }
 
@@ -127,18 +133,18 @@ Home Image
 
 .home-image h1 {
 	font-size: 1.5em;
-	-webkit-animation-duration: 2.5s;
-	-webkit-animation-delay: 1s;
-	-moz-animation-duration: 2.5s;
-	-moz-animation-delay: 1s;
+	-webkit-animation-duration: 2s;
+	-webkit-animation-delay: 1.5s;
+	-moz-animation-duration: 2s;
+	-moz-animation-delay: 1.5s;
 }
 
 .home-image h2 {
 	font-size: 1.15em;
-	-webkit-animation-duration: 2.5s;
-	-webkit-animation-delay: 2s;
-	-moz-animation-duration: 2.5s;
-	-moz-animation-delay: 2s;
+	-webkit-animation-duration: 2s;
+	-webkit-animation-delay: 2.25s;
+	-moz-animation-duration: 2s;
+	-moz-animation-delay: 2.25s;
 }
 
 
@@ -167,6 +173,10 @@ Home Nav Gallery
 	margin: 0 auto;
 	height: 140px;
 	width: 225px;
+	-webkit-animation-duration: 1.5s;
+	-webkit-animation-delay: 3s;
+	-moz-animation-duration: 1.5s;
+	-moz-animation-delay: 3s;
 }
 
 .gallery-container h2 {

@@ -11,11 +11,12 @@
 	}
 	
 	.gallery-container {
-		width: 33%;
+		flex-basis: 33%;
 	}
 	
-	.gallery-container img {
+	.nav-image {
 		height: 150px;
+		width: 100%;
 	}
 	
 	.home-image {
@@ -31,19 +32,57 @@
 	}
 }
 
-@media all and (min-width: 53.75em) {
-	.gallery-container img {
-		width: 220px;
-	}
-}
+/*@media all and (min-width: 53.75em) {
+	
+}*/
 
 @media all and (min-width: 58.75em) {
 	.home-image {
 		height: 325px;
 	}
 	
+	.home-image h1 {
+		font-size:  2.5em;
+	}
+	
+	.home-image h2 {
+		font-size:  2em;
+	}
+	
+	.nav-image {
+		width: 280px;
+	}
+	
 }
 
 @media all and (min-width: 81.25em) {
+	#main-content {
+		min-height: calc(100vh - 125px);
+	}
 	
+	#main-banner {
+		height: 125px;
+	}
+	
+	.banner-icon {
+		width: 100px;
+	}
+	
+	.home-image {
+		height: 375px;
+	}
+	
+	.home-image h1 {
+		font-size:  3em;
+	}
+	
+	.home-image h2 {
+		font-size:  2em;
+	}	
 }
+
+
+
+
+
+
