@@ -10,17 +10,37 @@
 		flex-direction: row;
 	}
 	
-	.gallery-container img {
-		width: 175px;
+	.gallery-container {
+		width: 33%;
 	}
 	
+	.gallery-container img {
+		height: 150px;
+	}
+	
+	.home-image {
+		height: 300px;
+	}
+	
+	.home-image h1 {
+		font-size:  2em;
+	}
+	
+	.home-image h2 {
+		font-size:  1.5em;
+	}
 }
 
 @media all and (min-width: 53.75em) {
-	
+	.gallery-container img {
+		width: 220px;
+	}
 }
 
 @media all and (min-width: 58.75em) {
+	.home-image {
+		height: 325px;
+	}
 	
 }
 
