@@ -30,6 +30,36 @@
 	.home-image h2 {
 		font-size:  1.5em;
 	}
+	
+	.banner {
+		height: 80px;
+	}
+	
+	.top-nav {
+		flex-direction: row;
+		justify-content: space-between;
+	}
+	
+	.nav-icon {
+		display: block;
+		margin: 0 auto;
+		height: 60px;
+		width: 100px;
+	}
+	
+	.nav-item {
+		text-align: center;
+		position: relative;
+		align-items: center;
+	}
+	
+	.nav-item h2 {
+		text-align: center;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+	}
 }
 
 /*@media all and (min-width: 53.75em) {
