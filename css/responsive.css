@@ -83,10 +83,30 @@
 		width: 280px;
 	}
 	
+	.nav-icon {
+		width: 125px;
+	}
+	
+	.top-nav {
+		justify-content: flex-end;
+	}
+	
+	.nav-item {
+		padding: 0 10px;
+	}
+	
+	.home-flex {
+		margin-right: auto;
+	}
+	
+	.main-content {
+		min-height: calc(100vh - 80px);
+	}
+	
 }
 
 @media all and (min-width: 81.25em) {
-	#main-content {
+	.home-content {
 		min-height: calc(100vh - 125px);
 	}
 	
@@ -108,7 +128,11 @@
 	
 	.home-image h2 {
 		font-size:  2em;
-	}	
+	}
+	
+	.nav-item {
+		padding: 0 40px;
+	}
 }
 
 

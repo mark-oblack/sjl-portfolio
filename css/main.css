@@ -32,15 +32,19 @@ a {
 
 .flex-container {
 	display: flex;
-	justify-content: space-around;
-	flex-direction: row;
 	flex-wrap: wrap;
+	justify-content: space-between;
 	height: 100%;
 	width: 100%;
 }
 
-#main-content {
+.home-content {
 	min-height: calc(100vh - 100px);
+}
+
+.main-content {
+	min-height: calc(100vh - 154px);
+	flex-direction: column;
 }
 
 
@@ -74,6 +78,7 @@ footer {
 .footer-flex {
 	display: flex;
 	flex-direction: column;
+	margin: 0 auto;
 	align-self: flex-end;
 }
 
@@ -94,6 +99,8 @@ Home Banner Styles
 
 .banner-flex {
 	align-items: center;
+	justify-content: space-around;
+	flex-direction: row;
 }
 
 .banner-icon {
@@ -138,17 +145,17 @@ Home Image
 .home-image h1 {
 	font-size: 1.5em;
 	-webkit-animation-duration: 2s;
-	-webkit-animation-delay: 1.5s;
+	-webkit-animation-delay: 1.7s;
 	-moz-animation-duration: 2s;
-	-moz-animation-delay: 1.5s;
+	-moz-animation-delay: 1.7s;
 }
 
 .home-image h2 {
 	font-size: 1.15em;
 	-webkit-animation-duration: 2s;
-	-webkit-animation-delay: 2.25s;
+	-webkit-animation-delay: 2.4s;
 	-moz-animation-duration: 2s;
-	-moz-animation-delay: 2.25s;
+	-moz-animation-delay: 2.4s;
 }
 
 
@@ -166,7 +173,7 @@ Home Nav Gallery
 
 .gallery-container {
 	display: flex;
-	justify-content: center;
+	justify-content: space-between;
 	position: relative;
 	padding: 20px 0;
 	align-items: center;
@@ -205,6 +212,11 @@ Top Nav Styles
 
 .banner {
 	background-color: #2ECC71;
+	border-bottom: solid 2px #8E44AD;
+	box-shadow: 0 1px 4px rgba(0,0,0,.25);
+	/*position: fixed;
+	top: 0;
+	z-index: 1000;*/
 	width: 100%;
 	height: 100%;
 }
@@ -231,16 +243,22 @@ Top Nav Styles
 
 .home-nav:hover,
 .nav-item h2:hover {
-	color: #8E44AD;
-	transition: ease .25s;
+	color: #F0F0F0;
+	transition: ease .3s;
 }
 
 
 
+/*----------------------------------------
+General Page Styles
+----------------------------------------*/
 
-
-
-
+.headline {
+	text-align: center;
+	color: #8E44AD;
+	font-size: 1.5em;
+	padding: 10px 0;
+}
 
 
 
