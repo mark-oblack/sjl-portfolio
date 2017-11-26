@@ -21,9 +21,13 @@ h1, h2 {
 	color: #2C3E50;
 }
 
-h3, p {
+h3, h4, p {
 	font-family: 'Roboto', sans-serif;
 	color: #2C3E50;
+}
+
+P {
+	line-height: 1.5em;
 }
 
 a {
@@ -45,6 +49,9 @@ a {
 .main-content {
 	min-height: calc(100vh - 154px);
 	flex-direction: column;
+	justify-content: flex-start;
+	width: 90%;
+	margin: 0 auto;
 }
 
 
@@ -257,11 +264,55 @@ General Page Styles
 	text-align: center;
 	color: #8E44AD;
 	font-size: 1.5em;
-	padding: 10px 0;
+	padding: 20px 0;
 }
 
 
 
+
+/*----------------------------------------
+Lesson Box Styles
+----------------------------------------*/
+
+.lesson-container {
+	background-color: rgba(44, 62, 80, 0.1);
+	display: flex;
+	flex-direction: column;
+	margin: 20px 0;
+}
+
+.lesson-box {
+	width: 85%;
+	display: flex;
+	flex-direction: column;
+	align-self: center;
+}
+
+.lesson-box h3,
+.lesson-box h4 {
+	font-size: 1.5em;
+	font-weight: 300;
+	padding: 10px 0;
+	text-align: center;
+	color: #8E44AD;
+}
+
+.lesson-box i {
+	font-size: 2em;
+}
+
+.materials-flex {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-self: center;
+	width: 50%;
+	margin-bottom: 20px;
+}
+
+.lesson-image {
+	width: 100%;
+}
 
 
 
