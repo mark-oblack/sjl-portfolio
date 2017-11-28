@@ -33,13 +33,11 @@ h3, h4 {
 p {
 	font-family: 'Roboto', sans-serif;
 	color: #2C3E50;
-}
-
-P {
 	line-height: 1.5em;
 }
 
 a {
+	color: #2ECC71;
 	text-decoration: none;
 }
 
@@ -56,11 +54,12 @@ a {
 }
 
 .main-content {
-	min-height: calc(100vh - 154px);
-	height: 100%;
+	display: flex;
 	flex-direction: column;
 	justify-content: flex-start;
 	width: 90%;
+	min-height: calc(100vh - 154px);
+	height: 100%;
 	margin: 0 auto;
 }
 
@@ -101,6 +100,11 @@ footer {
 	margin-top: auto;
 }
 
+.footer-icons {
+	flex-direction: row;
+	justify-content: space-between;
+}
+
 
 
 
@@ -119,7 +123,6 @@ Home Banner Styles
 
 .banner-flex {
 	align-items: center;
-	justify-content: space-around;
 	flex-direction: row;
 }
 
@@ -172,6 +175,7 @@ Home Image
 
 .home-image h2 {
 	font-size: 1.15em;
+	font-weight: 300;
 	-webkit-animation-duration: 2s;
 	-webkit-animation-delay: 2.4s;
 	-moz-animation-duration: 2s;
@@ -185,18 +189,14 @@ Home Nav Gallery
 ----------------------------------------*/
 
 .nav-gallery {
-	display: flex;
 	flex-direction: column;
 	margin: 0 auto;
 	width: 95%;
 }
 
 .gallery-container {
-	display: flex;
-	justify-content: space-between;
 	position: relative;
-	padding: 20px 0;
-	align-items: center;
+	margin: 20px 0;
 }
 
 .nav-image {
@@ -243,7 +243,6 @@ Top Nav Styles
 
 .top-nav {
 	flex-direction: column;
-	justify-content: space-between;
 	align-items: center;
 	margin: 0 auto;
 }
@@ -306,10 +305,6 @@ Lesson Box Styles
 	padding: 10px 0;
 }
 
-.lesson-box i {
-	font-size: 2em;
-}
-
 .materials-flex {
 	display: flex;
 	flex-direction: row;
@@ -320,6 +315,7 @@ Lesson Box Styles
 }
 
 .lesson-image {
+	margin: 0 auto;
 	width: 100%;
 }
 
