@@ -60,6 +60,11 @@
 		left: 50%;
 		transform: translate(-50%, -50%);
 	}
+	
+	.summary {
+		width: 80%;
+		margin: 0 auto;
+	}
 }
 
 @media all and (min-width: 53.75em) {
@@ -124,7 +129,23 @@
 	
 	.summary {
 		width: 70%;
-		margin: 0 auto;
+	}
+	
+	.headline {
+		align-self: flex-start;
+		
+	}
+	
+	.about-flex {
+		flex-direction: row-reverse;
+	}
+	
+	.about-content {
+		width: 55%;
+	}
+	
+	.about-image {
+		width: 300px;
 	}
 }
 
@@ -155,6 +176,10 @@
 	
 	.nav-item {
 		padding: 0 40px;
+	}
+	
+	.about-image {
+		width: 375px;
 	}
 }
 

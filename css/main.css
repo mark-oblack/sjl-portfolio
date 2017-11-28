@@ -12,6 +12,7 @@ body {
 	background-color: #F0F0F0;
 	text-decoration: none;
 	min-height: 100vh;
+	height: 100%;
 	display: flex;
 	flex-direction: column;
 }
@@ -21,7 +22,15 @@ h1, h2 {
 	color: #2C3E50;
 }
 
-h3, h4, p {
+h3, h4 {
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.5em;
+	font-weight: 300;
+	text-align: center;
+	color: #8E44AD;
+}
+
+p {
 	font-family: 'Roboto', sans-serif;
 	color: #2C3E50;
 }
@@ -48,11 +57,13 @@ a {
 
 .main-content {
 	min-height: calc(100vh - 154px);
+	height: 100%;
 	flex-direction: column;
 	justify-content: flex-start;
 	width: 90%;
 	margin: 0 auto;
 }
+
 
 
 /*----------------------------------------
@@ -87,7 +98,9 @@ footer {
 	flex-direction: column;
 	margin: 0 auto;
 	align-self: flex-end;
+	margin-top: auto;
 }
+
 
 
 
@@ -290,11 +303,7 @@ Lesson Box Styles
 
 .lesson-box h3,
 .lesson-box h4 {
-	font-size: 1.5em;
-	font-weight: 300;
 	padding: 10px 0;
-	text-align: center;
-	color: #8E44AD;
 }
 
 .lesson-box i {
@@ -313,6 +322,53 @@ Lesson Box Styles
 .lesson-image {
 	width: 100%;
 }
+
+
+
+
+/*----------------------------------------
+About Page Styles
+----------------------------------------*/
+
+.about-flex {
+	display: flex;
+	flex-direction: column;
+}
+
+.about-image {
+	border-radius: 50%;
+	margin: 0 auto;
+	height: 100%;
+	width: 250px;
+	margin-bottom: 20px;
+}
+
+.about-content p {
+	margin-bottom: 10px;
+}
+
+.about-content h3 {
+	margin: 20px 0 10px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
