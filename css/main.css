@@ -311,6 +311,11 @@ Lesson Box Styles
 	padding: 10px 0;
 }
 
+.lesson-box .fa:hover {
+	color: #8E44AD;
+	transition: ease .3s;
+}
+
 .materials-flex {
 	display: flex;
 	flex-direction: row;
