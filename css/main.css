@@ -195,11 +195,14 @@ Home Nav Gallery
 
 .nav-gallery {
 	flex-direction: column;
+	justify-content: center;
 	margin: 0 auto;
 	width: 95%;
 }
 
 .gallery-container {
+	display: flex;
+	justify-content: center;
 	position: relative;
 	margin: 20px 0;
 }

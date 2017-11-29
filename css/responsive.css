@@ -8,15 +8,18 @@
 	
 	.nav-gallery {
 		flex-direction: row;
+		align-content: center;
 	}
 	
 	.gallery-container {
 		width: 33%;
+		align-content: center;
 	}
 	
 	.nav-image {
 		height: 125px;
 		width: 100%;
+		align-self: center;
 	}
 	
 	.home-image {
