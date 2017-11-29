@@ -61,9 +61,13 @@
 		transform: translate(-50%, -50%);
 	}
 	
-	.summary {
+	.portfolio-content {
 		width: 80%;
 		margin: 0 auto;
+	}
+	
+	.main-content {
+		min-height: calc(100vh - 80px)
 	}
 }
 
@@ -145,6 +149,11 @@
 		width: 55%;
 	}
 	
+	.about-content h3,
+	.main-content h3 {
+		text-align: left;
+	}
+	
 	.about-image {
 		width: 300px;
 	}
@@ -181,6 +190,10 @@
 	
 	.about-image {
 		width: 375px;
+	}
+	
+	.footer-flex {
+		width: 75%;
 	}
 }
 

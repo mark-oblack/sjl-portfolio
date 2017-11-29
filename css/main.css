@@ -15,6 +15,8 @@ body {
 	height: 100%;
 	display: flex;
 	flex-direction: column;
+	font-family: 'Roboto', sans-serif;
+	color: #2C3E50;
 }
 
 h1, h2 {
@@ -31,14 +33,18 @@ h3, h4 {
 }
 
 p {
-	font-family: 'Roboto', sans-serif;
-	color: #2C3E50;
 	line-height: 1.5em;
 }
 
 a {
-	color: #2ECC71;
+	color: #27ae60;
 	text-decoration: none;
+}
+
+a:hover {
+	cursor: pointer;
+	color: #1E8B4A;
+	transition: ease .2s;
 }
 
 .flex-container {
@@ -87,7 +93,7 @@ footer {
 	padding: 10px 20px;
 }
 
-.fa:hover {
+.footer-flex .fa:hover {
 	color: #8E44AD;
 	transition: ease .3s;
 }
@@ -98,11 +104,11 @@ footer {
 	margin: 0 auto;
 	align-self: flex-end;
 	margin-top: auto;
+	width: 100%;
 }
 
 .footer-icons {
-	flex-direction: row;
-	justify-content: space-between;
+	margin: 20px 0;
 }
 
 
@@ -263,7 +269,7 @@ Top Nav Styles
 .home-nav:hover,
 .nav-item h2:hover {
 	color: #F0F0F0;
-	transition: ease .3s;
+	transition: ease .2s;
 }
 
 
@@ -347,7 +353,25 @@ About Page Styles
 	margin: 20px 0 10px 0;
 }
 
+/*----------------------------------------
+Contact Page Styles
+----------------------------------------*/
 
+.contact-content h3 {
+	margin: 30px 0;
+}
+
+.contact-info li {
+	margin-bottom: 12px;;
+}
+
+.contact-info i {
+	width: 40px;
+}
+
+.contact-info a {
+	text-align: left;
+}
 
 
 
