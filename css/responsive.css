@@ -67,7 +67,8 @@
 	}
 	
 	.main-content {
-		min-height: calc(100vh - 80px)
+		min-height: calc(100vh - 80px);
+		width: 80%;
 	}
 }
 
@@ -75,7 +76,7 @@
 	.lesson-container {
 		flex-direction: row;
 		justify-content: flex-end;
-		position: relative;
+		/*position: relative;*/
 	}
 	
 	.lesson-box {
@@ -87,9 +88,14 @@
 		flex-direction: row-reverse;
 	}
 	
-	.lesson-image {
-		height: 100%;
+	.lesson-img-container {
 		width: 50%;
+	}
+	
+	.lesson-image {
+		object-fit: cover;
+		min-width: 100%;
+		min-height: 100%
 	}
 	
 }
@@ -128,17 +134,16 @@
 		margin-right: auto;
 	}
 	
-	.main-content {
-		min-height: calc(100vh - 80px);
-	}
-	
 	.summary {
 		width: 70%;
 	}
 	
 	.headline {
 		align-self: flex-start;
-		
+	}
+	
+	.lesson-box h3 {
+		align-self: center;
 	}
 	
 	.about-flex {
@@ -193,6 +198,10 @@
 	}
 	
 	.footer-flex {
+		width: 75%;
+	}
+	
+	.main-content {
 		width: 75%;
 	}
 }
