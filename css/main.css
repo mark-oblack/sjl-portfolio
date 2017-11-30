@@ -57,20 +57,30 @@ a:hover {
 
 .flex-container {
 	display: flex;
+	flex-direction: column;
 	flex-wrap: wrap;
 	justify-content: space-between;
-	height: 100%;
+	margin: 0 auto;
 	width: 100%;
 }
 
-.main-content {
+.main-content,
+.home-content {
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-start;
-	width: 90%;
-	min-height: calc(100vh - 154px);
-	height: 100%;
+	height: auto;
 	margin: 0 auto;
+}
+
+.main-content {
+	min-height: calc(100vh - 154px);
+	width: 90%;
+}
+
+.home-content {
+	min-height: calc(100vh - 100px);
+	width: 100%;
 }
 
 
@@ -112,6 +122,9 @@ footer {
 }
 
 .footer-icons {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
 	margin: 20px 0;
 }
 
@@ -157,10 +170,6 @@ Home Banner Styles
 Home Image
 ----------------------------------------*/
 
-.home-content {
-	min-height: calc(100vh - 100px);
-}
-
 .home-image {
 	background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.8)), url(http://www.thecitizensciencelab.org/wp-content/uploads/2015/11/lab.jpg) center center no-repeat;
 	background-size: cover;
@@ -168,6 +177,7 @@ Home Image
 	flex-direction: column;
 	justify-content: center;
 	width: 100%;
+	max-width: 100%;
 	height: 200px;
 }
 
@@ -203,11 +213,11 @@ Home Nav Gallery
 ----------------------------------------*/
 
 .nav-gallery {
+	display: flex;
 	flex-direction: column;
-	justify-content: space-between;
-	margin: 0 auto;
+	flex-wrap: nowrap;
+	margin-top: auto;
 	width: 95%;
-	height: auto;
 }
 
 .gallery-container {
@@ -219,7 +229,6 @@ Home Nav Gallery
 
 .nav-image {
 	display: block;
-	margin: 0 auto;
 	height: 140px;
 	width: 225px;
 	-webkit-animation-duration: 1.5s;
@@ -260,6 +269,7 @@ Top Nav Styles
 }
 
 .top-nav {
+	display: flex;
 	flex-direction: column;
 	align-items: center;
 	margin: 0 auto;
@@ -376,6 +386,7 @@ About Page Styles
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
+	margin: 25px 0 15px 0;
 }
 
 .button {
