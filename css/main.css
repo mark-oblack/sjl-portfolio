@@ -371,6 +371,37 @@ About Page Styles
 	margin: 20px 0 10px 0;
 }
 
+
+.button-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.button {
+	background-color: #8E44AD;
+    border: none;
+	border-radius: 5px;
+    color: #ECF0F1;
+    padding: 16px;
+    cursor: pointer;
+    text-decoration: none;
+	width: 140px;
+	margin: 0 20px;
+}
+
+.button:hover {
+	opacity: 0.8;
+}
+
+.button p {
+    font-size: 1.2em;
+    letter-spacing: 1px;
+	margin: 0 auto;
+}
+
+
+
 /*----------------------------------------
 Contact Page Styles
 ----------------------------------------*/
