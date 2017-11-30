@@ -101,6 +101,10 @@
 		min-height: 100%
 	}
 	
+	.ep-content {
+		width: 75%;
+	}
+	
 }
 
 @media all and (min-width: 58.75em) {
@@ -164,6 +168,10 @@
 	
 	.about-image {
 		width: 300px;
+	}
+	
+	.ep-header {
+		margin: 0 auto;
 	}
 }
 

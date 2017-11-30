@@ -19,16 +19,25 @@ body {
 	color: #2C3E50;
 }
 
-h1, h2 {
+h1, h2, h4 {
 	font-family: 'Roboto Slab', serif;
 	color: #2C3E50;
+	line-height: 1.3em;
 }
 
 h3, h4 {
 	font-family: 'Roboto Slab', serif;
-	font-size: 1.5em;
 	font-weight: 300;
+}
+
+h3 {
+	font-size: 1.5em;
 	color: #8E44AD;
+}
+
+h4 {
+	font-size: 1.25em;
+	margin: 25px 0 10px 0;
 }
 
 p {
@@ -386,7 +395,18 @@ Contact Page Styles
 
 
 
+/*----------------------------------------
+Educational Philosophies Styles
+----------------------------------------*/
 
+.ep-content {
+	margin: 0 auto;
+}
+
+.ep-content h3 {
+	margin: 20px 0 10px 0;
+	text-align: center;
+}
 
 
 
