@@ -398,17 +398,14 @@ About Page Styles
     padding: 16px;
     cursor: pointer;
     text-decoration: none;
+	font-size: 1em;
+	font-family: 'Roboto', sans-serif;
 	width: 140px;
 	margin: 0 20px;
 }
 
 .button:hover {
 	opacity: 0.8;
-}
-
-.button p {
-    font-size: 1.4em;
-	margin: 0 auto;
 }
 
 
