@@ -172,7 +172,7 @@ Home Image
 ----------------------------------------*/
 
 .home-image {
-	background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.8)), url(http://www.thecitizensciencelab.org/wp-content/uploads/2015/11/lab.jpg) center center no-repeat;
+	background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.8)), url("../assets/images/lab.jpg") center center no-repeat;
 	background-size: cover;
 	display: flex;
 	flex-direction: column;
